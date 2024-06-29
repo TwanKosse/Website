@@ -1,0 +1,69 @@
+*   {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*the boxes and circles*/
+/*color*/
+.colored {
+    background: -webkit-linear-gradient( #8DF2B9,  rgb(255, 255, 94), rgb(255, 128, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border {
+    background-image: linear-gradient( #8DF2B9, rgb(255, 255, 94), rgb(255, 128, 0));
+}
+
+.inside {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: antiquewhite;
+}
+
+.border.square {
+    width: 100%;
+    height: 100vh;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+figure{
+    width: 20vw;
+}
+
+.border.square.small {
+    height: 20vw;
+}
+
+main {
+    width: calc(90vw - 40px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-top: 5vw;
+}
+
+figure {
+    width: 20vw;
+    height: 25vw;
+    position: relative;
+}
+
+h1 {
+    font-size: 10vw;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
